@@ -6,7 +6,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img { margin: 0; padding: 0; 
 
 /*- Base color -*/
 /*- Base settings -*/
-html { background-color: #F7FFFE; font-size: 16px; line-height: 1.5; color: #222222; }
+html { background-color: #FFFFFF; font-size: 16px; line-height: 1.5; color: #222222; }
 
 @media (min-width: 940px) { html { font-size: 18px; } }
 
@@ -27,16 +27,16 @@ h2 { font-size: 1.5em; /* 24px/16px */ line-height: 1em; /* 24px/24px */ padding
 
 h3, h4, h5, h6 { font-size: 1.125em; /* 18px/16px */ line-height: 1.3334em; /* 24px/18px */ padding: 0.66667em 0; /* 12px/18px * 2 (Use padding instead of margin to maintain proximity with paragraph) */ }
 
-blockquote { font-style: italic; margin: 1.5em; /* 24px/18px */ -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; background-color: #defffb; padding: 0 1.5em; /* 24px/18px */ }
+blockquote { font-style: italic; margin: 1.5em; /* 24px/18px */ -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; background-color: #f2f2f2; padding: 0 1.5em; /* 24px/18px */ }
 
 blockquote p, blockquote ul, blockquote ol { padding: 1.5em 0; /* 24px/18px */ }
 
 /*- Typography for big screen, based on 18px font-size -*/
-@media (min-width: 940px) { p, ul, ol { font-size: 1em; /* 18px */ line-height: 1.3334em; /* 24px/18px */ margin-bottom: 1.3334em; /* 24px/18px */ } h1 { font-size: 2.6667em; /* 48px/18px */ line-height: 1em; /* 48px/48px */ padding: 0.25em 0; /* 12px/48px * 2 (Use padding instead of margin to maintain proximity with paragraph) */ } h2 { font-size: 2em; /* 36px/18px */ line-height: 1.3334em; /* 48px/36px */ padding: 0.66667em 0 0 0; /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */ } h3, h4, h5, h6 { font-size: 1.3334em; /* 24px/18px */ line-height: 1em; /* 24px/24px */ padding: 0.5em 0; /* 12px/24px * 2 (Use padding instead of margin to maintain proximity with paragraph) */ } blockquote { font-style: italic; margin: 1.3334em; /* 24px/18px */ -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; background-color: #defffb; padding: 0 1.33334em; /* 24px/18px */ } blockquote p, blockquote ul, blockquote ol { padding: 1.33334em 0; /* 24px/18px */ } }
+@media (min-width: 940px) { p, ul, ol { font-size: 1em; /* 18px */ line-height: 1.3334em; /* 24px/18px */ margin-bottom: 1.3334em; /* 24px/18px */ } h1 { font-size: 2.6667em; /* 48px/18px */ line-height: 1em; /* 48px/48px */ padding: 0.25em 0; /* 12px/48px * 2 (Use padding instead of margin to maintain proximity with paragraph) */ } h2 { font-size: 2em; /* 36px/18px */ line-height: 1.3334em; /* 48px/36px */ padding: 0.66667em 0 0 0; /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */ } h3, h4, h5, h6 { font-size: 1.3334em; /* 24px/18px */ line-height: 1em; /* 24px/24px */ padding: 0.5em 0; /* 12px/24px * 2 (Use padding instead of margin to maintain proximity with paragraph) */ } blockquote { font-style: italic; margin: 1.3334em; /* 24px/18px */ -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; background-color: #f2f2f2; padding: 0 1.33334em; /* 24px/18px */ } blockquote p, blockquote ul, blockquote ol { padding: 1.33334em 0; /* 24px/18px */ } }
 
 /* -- General Layout -- */
 /* Navigation */
-#nav a, #nav-left a { display: block; color: #F7FFFE; padding: 0.33334em 0; font-size: 1.5em; font-weight: 400; }
+#nav a, #nav-left a { display: block; color: #FFFFFF; padding: 0.33334em 0; font-size: 1.5em; font-weight: 400; }
 
 @media (min-width: 940px) { #nav a, #nav-left a { font-size: 1em; } }
 
@@ -44,9 +44,9 @@ blockquote p, blockquote ul, blockquote ol { padding: 1.5em 0; /* 24px/18px */ }
 
 #nav span, #nav-left span { font-weight: 200; }
 
-#nav { width: 14rem; position: fixed; background-color: #57D4C9; top: 0; bottom: 0; right: -14rem; color: #F7FFFE; opacity: 0.95; -webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in; -ms-transition: all 0.3s ease-in; transition: all 0.3s ease-in; z-index: 1; padding: 72px 0; text-align: center; }
+#nav { width: 14rem; position: fixed; background-color: #57D4C9; top: 0; bottom: 0; right: -14rem; color: #FFFFFF; opacity: 0.95; -webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in; -ms-transition: all 0.3s ease-in; transition: all 0.3s ease-in; z-index: 1; padding: 72px 0; text-align: center; }
 
-#nav-left { width: 14rem; position: fixed; background-color: #57D4C9; top: 0; bottom: 0; left: -14rem; color: #F7FFFE; opacity: 0.95; -webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in; -ms-transition: all 0.3s ease-in; transition: all 0.3s ease-in; z-index: 1; padding: 72px 0; text-align: center; }
+#nav-left { width: 14rem; position: fixed; background-color: #57D4C9; top: 0; bottom: 0; left: -14rem; color: #FFFFFF; opacity: 0.95; -webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in; -ms-transition: all 0.3s ease-in; transition: all 0.3s ease-in; z-index: 1; padding: 72px 0; text-align: center; }
 
 /* Toggle class to open menu */
 #nav.menu-open { -webkit-transform: translateX(-14rem); -moz-transform: translateX(-14rem); -ms-transform: translateX(-14rem); transform: translateX(-14rem); width: 100%; }
@@ -58,7 +58,7 @@ blockquote p, blockquote ul, blockquote ol { padding: 1.5em 0; /* 24px/18px */ }
 @media (min-width: 940px) { #nav-left.menu-open-left { width: 30%; } }
 
 /* Separator after menu */
-#nav-list:after { display: block; content: ''; width: 5rem; height: 1px; margin: 23px auto; background-color: #F7FFFE; }
+#nav-list:after { display: block; content: ''; width: 5rem; height: 1px; margin: 23px auto; background-color: #FFFFFF; }
 
 /* Icon menu */
 #nav-menu { display: block; position: absolute; top: 35px; right: 25px; z-index: 10; height: 24px; }
@@ -75,9 +75,9 @@ blockquote p, blockquote ul, blockquote ol { padding: 1.5em 0; /* 24px/18px */ }
 
 #menu.btn-close { background: none; }
 
-#menu.btn-close:before { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); background-color: #F7FFFE; }
+#menu.btn-close:before { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); background-color: #FFFFFF; }
 
-#menu.btn-close:after { top: -4px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); background-color: #F7FFFE; }
+#menu.btn-close:after { top: -4px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); background-color: #FFFFFF; }
 
 /* Main content */
 .fixed { position: fixed; width: 100%; }
@@ -90,7 +90,7 @@ blockquote p, blockquote ul, blockquote ol { padding: 1.5em 0; /* 24px/18px */ }
 
 #header a { text-decoration: none; color: #222222; display: inline-block; }
 
-#header img { margin: 0 auto; width: 700px; height: 500px; display: block; }
+#header img { max-width: 885px; width: 100%; margin: 0 auto; display: block; }
 
 #header h1 { font-family: 'Signika', sans-serif; font-weight: 600; }
 
@@ -126,17 +126,17 @@ code { color: #7b7b7b; background-color: white; }
 /* Paginator */
 .pagination { text-align: center; margin: 2.666668em; }
 
-.pagination span { background-color: #defffb; color: #222222; }
+.pagination span { background-color: #f2f2f2; color: #222222; }
 
 .pagination a:hover { background-color: #6bd9d0; }
 
-.page-item { background-color: #57D4C9; color: #F7FFFE; padding: 4px 8px; font-weight: 400; padding: 0.5em 1em; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; }
+.page-item { background-color: #57D4C9; color: #FFFFFF; padding: 4px 8px; font-weight: 400; padding: 0.5em 1em; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; }
 
 /* Footer */
-footer { background-color: #57D4C9; color: #F7FFFE; text-align: center; padding: 0.6667em 0; }
+footer { background-color: #57D4C9; color: #FFFFFF; text-align: center; padding: 0.6667em 0; }
 
 /* A Github stylesheet to highlight code snippet https://github.com/mojombo/tpw/blob/master/css/syntax.css */
-.lineno { color: #78ffee; margin-right: 1em; }
+.lineno { color: #bfbfbf; margin-right: 1em; }
 
 .highlight .c { color: #999988; font-style: italic; }
 
