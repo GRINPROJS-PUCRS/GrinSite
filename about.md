@@ -1,21 +1,13 @@
 ---
 layout: page
-title: About Emerald
+title: Sobre o GRIN
 ---
-## About
-Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to provide a clear theme for those who want a blog ready to use, focused on the content and mobile-first.
+## Sobre o GRIN
+O GRIN (Grupo de Pesquisa em Redes, Infraestrutura e Computação em Nuvem) desenvolve pesquisas em infraestrutura de TI, com ênfase em redes de computadores, virtualização e computação em nuvem. 
 
-For further details on Emerald, please visit the [repository on Github](https://github.com/KingFelix/emerald/).
+Algumas das principais áreas de interesse do grupo incluem: gerência de redes e infraestrutura de TI, consolidação de servidores, estratégias para eficiência energética, redes definidas por software(SDN), 
+virtualização de funções de rede (NFV), escalonamento de máquinas virtuais, automação no provisionamento de infraestrutura, computação em nuvem móvel, avaliação de mecanismos de virtualização e segurança em redes de computadores.
 
-![Emerald](img/Emerald01.png "Emerald")
-
-### Setup
-Emerald may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
-
-After extracting the content from the folder into the selected directory, you can type ``jekyll serve`` from the terminal, than open your browser to ``0.0.0.0:4000/emerald/`` and you will find it there.
-
-Additionally it is possible to fork the repository and use Github Pages as hosting. By following this way it will be enough to change the ``baseurl`` value into the ``_config.yml`` file, with the directory name of your project (for example /blog) or simply with a "/" (slash) if you want install Emerald in the root. 
-
-Last but not least: the [Jekyll documentation](http://jekyllrb.com) is the best starting point!
+Acesse nossa página no DGP/CNPq(http://dgp.cnpq.br/dgp/espelhogrupo/6377397159170786)!
 
 Enjoy!
