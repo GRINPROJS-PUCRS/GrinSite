@@ -4,12 +4,22 @@
  <title>Grin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2020-07-30T11:37:48-03:00</updated>
+ <updated>2020-07-30T11:43:39-03:00</updated>
  <author>
    <name></name>
    <uri></uri>
    <email></email>
  </author>
+
+ 
+
+ <entry>
+   <title>Teste Noticias</title>
+   <link href="http://localhost:4000/Teste-noticias"/>
+   <id>http://localhost:4000/Teste-noticias</id>
+   <updated>2020-07-30T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/emerald/img/img-test.png&quot; alt=&quot;Test&quot; title=&quot;Test&quot; /&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;http://www.example.com&quot;&gt;consectetur adipisicing&lt;/a&gt; elit. Id, aliquam magni et officiis nemo nihil aliquid placeat alias. Eum voluptates ducimus, nobis ex illum laboriosam quidem corrupti impedit ratione in voluptatum amet beatae facilis temporibus voluptate praesentium voluptatibus! At ab, iusto error amet eveniet...</content>
+ </entry>
 
  
 
@@ -97,16 +107,6 @@
    <title>Example 2</title>
    <link href="http://localhost:4000/example-2"/>
    <id>http://localhost:4000/example-2</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
- </entry>
-
- 
-
- <entry>
-   <title>Example 1</title>
-   <link href="http://localhost:4000/example-1"/>
-   <id>http://localhost:4000/example-1</id>
    <updated>2015-02-15T00:00:00-02:00</updated>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
  </entry>
