@@ -1,3 +1,6 @@
+---
+title: Blog
+---
 <!DOCTYPE html>
 <html>
 
@@ -48,19 +51,14 @@
 
 					<h2>Notícias</h2>
 					<hr>
-                    <ul id="posts">
-
-                        {% for post in paginator.posts %}
-                    
-                          <li class="post">
-                              <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                              <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-                              <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+                    <ul>
+                        {% for post in site.posts %}
+                          <li>
+                            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                            {{ post.excerpt }}
                           </li>
-                    
                         {% endfor %}
-                    
-                    </ul>
+                      </ul>
 					</p>
 
 				</article>
