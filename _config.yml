@@ -3,7 +3,7 @@ title: Grin
 
 
 # Build settings
-baseurl: /GrinSite/ # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /GrinSite # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
