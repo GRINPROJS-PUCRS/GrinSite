@@ -4,7 +4,7 @@
  <title>Grin</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2020-08-04T14:32:43-03:00</updated>
+ <updated>2020-08-05T16:45:04-03:00</updated>
  <author>
    <name></name>
    <uri></uri>
@@ -47,16 +47,6 @@
  
 
  <entry>
-   <title>Code Syntax</title>
-   <link href="http://localhost:4000/code-syntax"/>
-   <id>http://localhost:4000/code-syntax</id>
-   <updated>2015-03-01T00:00:00-03:00</updated>
-   <content type="html">&lt;p&gt;To insert highlight code inside of a post, it’s enough to use some specific tags, has directly described into the &lt;a href=&quot;http://jekyllrb.com/docs/templates/#code-snippet-highlighting&quot;&gt;Jekyll documentation&lt;/a&gt;. In this way the code will be included into a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.highlight&lt;/code&gt; CSS class and will be highlight according to the &lt;a href=&quot;https://github.com/mojombo/tpw/blob/master/css/syntax.css&quot;&gt;syntax.scss&lt;/a&gt; file. This is...</content>
- </entry>
-
- 
-
- <entry>
    <title>Example 8</title>
    <link href="http://localhost:4000/example-8"/>
    <id>http://localhost:4000/example-8</id>
@@ -90,26 +80,6 @@
    <title>Example 5</title>
    <link href="http://localhost:4000/example-5"/>
    <id>http://localhost:4000/example-5</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
- </entry>
-
- 
-
- <entry>
-   <title>Example 4</title>
-   <link href="http://localhost:4000/example-4"/>
-   <id>http://localhost:4000/example-4</id>
-   <updated>2015-02-15T00:00:00-02:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
- </entry>
-
- 
-
- <entry>
-   <title>Example 3</title>
-   <link href="http://localhost:4000/example-3"/>
-   <id>http://localhost:4000/example-3</id>
    <updated>2015-02-15T00:00:00-02:00</updated>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
  </entry>
