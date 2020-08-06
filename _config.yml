@@ -9,7 +9,7 @@ source: .
 destination: ./_site
 permalink: /:title
 paginate: 5
-paginate_path: "noticias.html"
+paginate_path: "/blog/page:num/"
 
 # Default values
 defaults:
